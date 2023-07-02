@@ -3,7 +3,7 @@ const axios = require("axios");
 const cors = require("cors");
 const {
   scrapeWebsite,
-} = require("../my-app/src/pages/chatInterface/webScrapper"); // Import the scraping logic
+} = require("./webScrapper"); // Import the scraping logic
 
 const app = express();
 app.use(cors());
